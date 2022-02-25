@@ -1,0 +1,128 @@
+* { 
+    background: grey;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+
+.output-field {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+input {
+    width: 8rem;
+    height: 2rem;
+    border: dotted black 1px;
+    color: yellow;
+    margin: 0 5px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+input:focus {
+    box-shadow: 1px 1px 6px yellow;
+}
+
+.percent_minus {
+    display: block;
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    border: dotted black 1px;
+    color: rgb(255, 137, 137);
+    margin: 0 5px;
+}
+
+.percent_plus {
+    display: block;
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    border: dotted black 1px;
+    color: yellow;
+    margin: 0 5px;
+    
+}
+
+.percent_minus_am {
+    display: block;
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    border: dotted black 1px;
+    color: rgb(255, 137, 137);
+    margin: 0 5px;
+}
+
+.percent_plus_am {
+    display: block;
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    border: dotted black 1px;
+    color: yellow;
+    margin: 0 5px;
+    
+}
+
+.percent_text_price {
+    color: yellow;
+}
+.percent_text_plus {
+    color: rgb(2, 238, 2);
+}
+.percent_text_minus {
+    color: rgb(255, 137, 137);
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.stock-wrapper {
+    padding: 1rem;
+    border: dotted black 1px;
+    border-radius: 8px;
+}
+
+.ammount-wrapper {
+    padding: 1rem;
+    border: dotted black 1px;
+    border-radius: 8px;
+}
+
+h2 { 
+    color: yellow;
+    text-align: center
+}
+
+h2:hover { 
+    box-shadow: 1px 1px 6px yellow;
+    cursor: pointer;
+}
